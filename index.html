@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Emotional Journal Buddy</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Three.js -->
+    <script src="https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.160.0/examples/js/controls/OrbitControls.js"></script>
+    <!-- Google Fonts for handwriting style -->
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="scene-container">
+        <!-- Three.js scene will be rendered here -->
+    </div>
+    <div id="journal-interface" class="hidden">
+        <div class="page left-page">
+            <textarea id="journal-entry" placeholder="Write your thoughts here..."></textarea>
+        </div>
+        <div class="page right-page">
+            <div id="ai-response"></div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html> 
